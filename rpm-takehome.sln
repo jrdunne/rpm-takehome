@@ -3,20 +3,35 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeeklyFuelPricesLoader", "WeeklyFuelPricesLoader\WeeklyFuelPricesLoader.csproj", "{E16069B9-80FD-43A2-8497-720434D87500}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeeklyFuelPricesLoader", "WeeklyFuelPricesLoader\WeeklyFuelPricesLoader.csproj", "{E16069B9-80FD-43A2-8497-720434D87500}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E20A283A-0032-4B4B-B774-978E7E3F8248}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.txt = README.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeeklyFuelPricesLoader.Tests", "WeeklyFuelPricesLoader.Tests\WeeklyFuelPricesLoader.Tests.csproj", "{83DF1053-809B-4AB9-A822-06034E4F0913}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{E16069B9-80FD-43A2-8497-720434D87500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E16069B9-80FD-43A2-8497-720434D87500}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E16069B9-80FD-43A2-8497-720434D87500}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E16069B9-80FD-43A2-8497-720434D87500}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83DF1053-809B-4AB9-A822-06034E4F0913}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83DF1053-809B-4AB9-A822-06034E4F0913}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83DF1053-809B-4AB9-A822-06034E4F0913}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83DF1053-809B-4AB9-A822-06034E4F0913}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {80CE63E9-FD91-4141-89BC-B0FBFEB76DD8}
 	EndGlobalSection
 EndGlobal

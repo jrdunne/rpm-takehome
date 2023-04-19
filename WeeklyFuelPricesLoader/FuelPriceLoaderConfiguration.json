@@ -1,0 +1,4 @@
+{
+  "MaxLookbackDays": 30,
+  "CronSchedule": "0 0 * * 1"
+}
